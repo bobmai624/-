@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Aftershock Triangulation Race Logo</title>
+  <desc id="desc">A disaster response game badge with three signal towers, triangular relay beams, SOS, and the title Signal Aftershock.</desc>
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="45%" r="62%">
+      <stop offset="0%" stop-color="#17364a"/>
+      <stop offset="58%" stop-color="#071627"/>
+      <stop offset="100%" stop-color="#030711"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="48%" stop-color="#aab8c5"/>
+      <stop offset="100%" stop-color="#4b5967"/>
+    </linearGradient>
+    <linearGradient id="orangeText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd26a"/>
+      <stop offset="45%" stop-color="#ff942f"/>
+      <stop offset="100%" stop-color="#c9480d"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="orangeGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="hardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="9" flood-color="#000814" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <path d="M488 28 L536 74 L604 58 L646 118 L720 122 L748 190 L818 216 L828 292 L890 338 L870 414 L918 480 L870 546 L890 622 L828 668 L818 744 L748 770 L720 838 L646 842 L604 902 L536 886 L488 932 L440 886 L372 902 L330 842 L256 838 L228 770 L158 744 L148 668 L86 622 L106 546 L58 480 L106 414 L86 338 L148 292 L158 216 L228 190 L256 122 L330 118 L372 58 L440 74 Z" fill="#06111f" stroke="#274d77" stroke-width="16" filter="url(#hardShadow)"/>
+  <path d="M488 72 L530 108 L590 96 L626 148 L690 156 L714 214 L776 238 L784 306 L838 348 L822 416 L862 480 L822 544 L838 612 L784 654 L776 722 L714 746 L690 804 L626 812 L590 864 L530 852 L488 888 L446 852 L386 864 L350 812 L286 804 L262 746 L200 722 L192 654 L138 612 L154 544 L114 480 L154 416 L138 348 L192 306 L200 238 L262 214 L286 156 L350 148 L386 96 L446 108 Z" fill="url(#coreGlow)" stroke="#6eb8ff" stroke-opacity="0.52" stroke-width="6"/>
+
+  <g opacity="0.34" fill="#07111d">
+    <path d="M210 422 h44 v-92 h-44 z M270 438 h52 v-142 h-52 z M718 424 h42 v-118 h-42 z M774 444 h48 v-154 h-48 z M634 406 h38 v-76 h-38 z"/>
+    <path d="M174 456 h676 v28 h-676z"/>
+    <path d="M198 708 h590 v24 h-590z"/>
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M244 452 L492 228 L742 452" stroke="#ff9c31" stroke-width="12" filter="url(#orangeGlow)"/>
+    <path d="M244 452 L742 452" stroke="#39e3ff" stroke-width="12" filter="url(#cyanGlow)"/>
+    <path d="M492 228 L742 452" stroke="#8cff54" stroke-width="10" filter="url(#cyanGlow)"/>
+    <path d="M244 452 L492 452 L742 452" stroke="#fff3a8" stroke-opacity="0.5" stroke-width="2"/>
+    <path d="M244 452 L266 438 L278 462 L294 430 L310 454 L326 448" stroke="#ffe4a0" stroke-width="4"/>
+    <path d="M742 452 L722 438 L706 460 L692 430 L676 454 L660 448" stroke="#cbff9f" stroke-width="4"/>
+    <path d="M350 452 h72 l14 -24 l26 52 l22 -74 l29 94 l20 -48 h104" stroke="#ff6138" stroke-width="6" filter="url(#orangeGlow)"/>
+  </g>
+
+  <g transform="translate(492 228)" filter="url(#cyanGlow)">
+    <circle r="54" fill="#062236" stroke="#39e3ff" stroke-width="8"/>
+    <path d="M-46 -56 Q0 -96 46 -56 M-33 -36 Q0 -66 33 -36 M-20 -17 Q0 -35 20 -17" fill="none" stroke="#5effff" stroke-width="10" stroke-linecap="round"/>
+    <circle r="14" fill="#65f8ff"/>
+  </g>
+
+  <g transform="translate(244 452)" filter="url(#orangeGlow)">
+    <circle r="52" fill="#241207" stroke="#ff9c31" stroke-width="8"/>
+    <path d="M-42 -28 Q0 -68 42 -28 M-28 -13 Q0 -42 28 -13" fill="none" stroke="#ffcf6a" stroke-width="9" stroke-linecap="round"/>
+    <circle r="12" fill="#ffd475"/>
+  </g>
+
+  <g transform="translate(742 452)" filter="url(#cyanGlow)">
+    <circle r="52" fill="#0b2209" stroke="#8cff54" stroke-width="8"/>
+    <path d="M-42 -28 Q0 -68 42 -28 M-28 -13 Q0 -42 28 -13" fill="none" stroke="#cbff9f" stroke-width="9" stroke-linecap="round"/>
+    <circle r="12" fill="#caff8c"/>
+  </g>
+
+  <g fill="url(#steel)" stroke="#1b2635" stroke-width="5" stroke-linejoin="round">
+    <path d="M458 224 L492 102 L526 224 Z"/>
+    <path d="M211 450 L244 330 L277 450 Z"/>
+    <path d="M709 450 L742 330 L775 450 Z"/>
+  </g>
+  <g stroke="#111d2b" stroke-width="5" stroke-linecap="round">
+    <path d="M492 116 v98 M468 186 h48 M474 162 h36 M482 136 h20"/>
+    <path d="M244 344 v96 M222 416 h44 M228 392 h32 M236 366 h16"/>
+    <path d="M742 344 v96 M720 416 h44 M726 392 h32 M734 366 h16"/>
+  </g>
+
+  <g transform="translate(488 452)">
+    <circle r="72" fill="#1b1210" stroke="#9db7ce" stroke-width="8"/>
+    <circle r="56" fill="#46160c" stroke="#ff6138" stroke-width="5" filter="url(#orangeGlow)"/>
+    <text x="0" y="21" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="62" fill="#fff6e8" stroke="#ff6138" stroke-width="2">SOS</text>
+  </g>
+
+  <g font-family="Impact, Arial Black, sans-serif" text-anchor="middle" filter="url(#hardShadow)">
+    <text x="490" y="646" font-size="138" fill="#f7f7f1" stroke="#06101d" stroke-width="10" letter-spacing="3">SIGNAL</text>
+    <text x="490" y="775" font-size="126" fill="url(#orangeText)" stroke="#07101a" stroke-width="10" letter-spacing="1">AFTERSHOCK</text>
+  </g>
+  <g font-family="Arial Black, Arial, sans-serif" text-anchor="middle" letter-spacing="12">
+    <path d="M234 812 H744" stroke="#39e3ff" stroke-width="5" filter="url(#cyanGlow)"/>
+    <text x="490" y="840" font-size="36" fill="#52e8ff">TRIANGULATION RACE</text>
+  </g>
+  <g transform="translate(392 860)">
+    <path d="M0 0 h64 l10 60 l-42 22 l-42 -22 z" fill="#e96b14" stroke="#ffd26a" stroke-width="4"/>
+    <path d="M96 0 h64 l10 60 l-42 22 l-42 -22 z" fill="#0f6fa5" stroke="#69ddff" stroke-width="4"/>
+    <path d="M192 0 h64 l10 60 l-42 22 l-42 -22 z" fill="#309333" stroke="#c7ff8c" stroke-width="4"/>
+    <path d="M23 34 q8 -17 30 0 M16 43 h43 M28 31 h18" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M126 18 v45 M112 37 h28 M118 56 h16" stroke="#fff" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M224 18 v48 M200 42 h48" stroke="#fff" stroke-width="13" stroke-linecap="square"/>
+  </g>
+</svg>
